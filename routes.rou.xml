@@ -1,0 +1,29 @@
+<routes>
+    <!-- Definir tipos de vehículos -->
+    <vType id="car" accel="5.2" decel="7.5" sigma="0" length="5.0" maxSpeed="100.0"/>
+    <vType id="bus" accel="2.0" decel="3.5" sigma="0" length="12.0" maxSpeed="80.0"/>
+    <vType id="redcar" accel="2.6" decel="4.5" sigma="0" length="5.0" maxSpeed="100.0"/>
+
+    <!-- Definir rutas -->
+    <route id="r1" edges="e1"/>
+    <route id="r2" edges="e1 e3 e4 e5 e1 e3 e4 e5 e1 e3 e4 e5 e1 e3 e4 e5 e1 e3 e4 e5 e1 e3 e4 e5 e1 e3 e4 e5 e1 e3 e4 e5 e1 e3 e4 e5 e1 e3 e4 e5 e1 e3 e4 e5 e1 e3 e4 e5 e1 e3 e4 e5 e1 e3 e4 e5 e1 e3 e4 e5 e1 e3 e4 e5 e1 e3 e4 e5"/>
+
+    <!-- Definir vehículos con colores -->
+    <vehicle id="veh1" type="car" route="r2" depart="0" color="1,1,1"/> <!-- Rojo -->
+    <vehicle id="veh2" type="bus" route="r2" depart="10" color="1,1,1"/> <!-- Verde -->
+    <vehicle id="veh3" type="car" route="r2" depart="20" color="1,1,1"/> <!-- Azul -->
+    <vehicle id="veh4" type="car" route="r2" depart="30" color="1,1,1"/> <!-- Mezcla de colores -->
+    <vehicle id="veh5" type="bus" route="r2" depart="40" color="1,1,1"/> <!-- Mezcla de colores -->
+    <vehicle id="veh6" type="car" route="r2" depart="50" color="1,1,1"/> <!-- Mezcla de colores -->
+    <vehicle id="veh7" type="car" route="r2" depart="60" color="1,1,1"/> <!-- Mezcla de colores -->
+    <vehicle id="veh8" type="redcar" route="r2" depart="70" color="1,0,0"/> <!-- Mezcla de colores -->
+    <vehicle id="veh9" type="bus" route="r2" depart="80" color="1,1,1"/> <!-- Mezcla de colores -->
+    <vehicle id="veh10" type="car" route="r2" depart="90" color="1,1,1"/> <!-- Mezcla de colores -->
+    <vehicle id="veh11" type="car" route="r2" depart="100" color="1,1,1"/> <!-- Rojo -->
+    <vehicle id="veh12" type="bus" route="r2" depart="110" color="1,1,1"/> <!-- Verde -->
+    <vehicle id="veh13" type="car" route="r2" depart="120" color="1,1,1"/> <!-- Azul -->
+    <vehicle id="veh14" type="car" route="r2" depart="130" color="1,1,1"/> <!-- Mezcla de colores -->
+    <vehicle id="veh15" type="bus" route="r2" depart="140" color="1,1,1"/> <!-- Mezcla de colores -->
+    <vehicle id="veh16" type="car" route="r2" depart="150" color="1,1,1"/> <!-- Mezcla de colores -->
+
+</routes>
